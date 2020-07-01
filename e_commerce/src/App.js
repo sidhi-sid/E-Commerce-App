@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, BrowserRouter, Switch} from 'react-route
 import Form from './components/Form'
 import Report from './components/Report'
 import Delete from './components/Delete'
+import Allnine from './components/Allnine';
 function App() {
   
   return (
@@ -16,6 +17,9 @@ function App() {
       </Route>
       <Route path="/aded">
         <Form/>
+      </Route>
+      <Route path="/Allnine">
+        <Allnine/>
       </Route>
       <Route path="/check">
         <Report/>
